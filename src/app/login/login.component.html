@@ -1,0 +1,23 @@
+<div class="login">
+    <div class="account-login">
+    <h1 style="text-align: center">Next Education</h1>
+    <hr>
+    <hr>
+    &nbsp; 
+    <h4 style="text-align: center"> Login to continue.. </h4>
+    <p class="error-msg" *ngIf="errorMessage">{{ errorMessage }}</p>
+    <form #loginForm="ngForm" (ngSubmit)="submitLogin(loginForm)" class="login-form">
+        <div class="form-group">
+            <label for="username" class="control-label">Username*</label>
+            <input type="text" id="username" class="form-control" ngModel name="username"
+                #username="ngModel" required>
+
+            <label for="password" class="control-label">Password*</label>
+            <input type="text" id="password" class="form-control" ngModel name="password" #password="ngModel" required>
+
+            <button type="submit" class="btn" [disabled]="loginForm.invalid">Login</button>
+
+        </div>
+    </form>
+</div>
+</div>

@@ -1,0 +1,85 @@
+[
+	{
+		"id": 1,
+		"questionText": "Which of the following statement is correct for Angular?",
+		"options": ["Angular is an HTML framework",
+					"Angular is a Java framework",
+					"Angular is a JavaScript framework",
+					"Angular is a SQL framework"],
+		"correctAnswer": "Angular is a JavaScript framework",
+		"author": "Author1",
+		"stats": {
+			"lastAskedDate": "2021-07-22T07:14:00.234Z",
+			"askedCount":70,
+			"percent": 90
+		}
+	},
+	{
+		"id": 2,
+		"questionText": "Which of the following is true about the currency filter?",
+		"options": [
+			"A currency filter is used to format the text in a currency format.",
+			"A currency filter is a function that takes text as input.",
+			"Both A and B",
+			"None of the above"
+		],
+		"correctAnswer": "A currency filter is a function that takes text as input.",
+		"author": "Author2",
+		"stats": {
+			"lastAskedDate": "2021-08-22T07:14:00.234Z",
+			"askedCount": 10,
+			"percent": 100
+		}
+	},
+	{
+		"id": 3,
+		"questionText": "Which of the following option leads to the portability and security of Java?",
+		"options": [
+			"Bytecode is executed by JVM",
+			"The applet makes the Java code secure and portable",
+			"Use of exception handling",
+			"Dynamic binding between objects"
+		],
+		"correctAnswer": "Bytecode is executed by JVM",
+		"author": "Author3",
+		"stats": {
+			"lastAskedDate": "2021-04-22T07:14:00.234Z",
+			"askedCount": 20,
+			"percent": 12
+		}
+	},
+	{
+		"id": 4,
+		"questionText": "_____ is used to find and fix bugs in the Java programs.",
+		"options": [
+			"JVM",
+			"JRE",
+			"JDK",
+			"JDB"
+		],
+		"correctAnswer": "JDB",
+		"author": "Author4",
+		"stats": {
+			"lastAskedDate": "2021-02-22T07:14:00.234Z",
+			"askedCount": 70,
+			"percent": 75
+		}
+	},
+	{
+		"id": 5,
+		"questionText": "Which of the following is not a DDL command?",
+		"options": [
+			"TRUNCATE",
+			"ALTER",
+			"CREATE",
+			"UPDATE"
+		],
+		"correctAnswer": "UPDATE",
+		"author": "Author5",
+		"stats": {
+			"lastAskedDate": "2021-01-22T07:14:00.234Z",
+			"askedCount": 6,
+			"percent": 18
+		}
+	}
+]

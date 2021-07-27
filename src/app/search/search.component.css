@@ -1,0 +1,22 @@
+div {
+    margin: 1rem;
+}
+
+.question-info:hover {
+    color: rgb(9, 116, 179);
+    cursor: pointer;
+}
+
+.center {
+    border: 5px solid #FFFF00;
+    text-align: center;
+    }
+
+button{
+        height:40px; 
+        width:100px; 
+        margin: -20px -50px; 
+        position:relative;
+        top:50%; 
+        left:50%;
+    }

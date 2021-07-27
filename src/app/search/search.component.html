@@ -1,0 +1,21 @@
+<div>
+<form #searchForm="ngForm" (ngSubmit)="searchQuestion(searchForm)">
+    <div class="form-group">
+        <label for="question" class="control-label">Enter Question</label>
+        <input type="text" id="question" class="form-control" ngModel name="question"
+            #question="ngModel">
+            &nbsp;
+       
+    </div>
+    <div>
+    <button class="btn btn-toolbar" type="submit" class="btn btn-primary">Search</button>
+    </div>
+</form>
+
+<div *ngIf="searchResults.length > 0" [@searchResultTgr]="searchResults.length">
+    <h3>Search Results</h3>
+    <div class="question-info" *ngFor="let question of searchResults">
+        <span (click)="showQuestionDetails(question.id)">{{question.id}}. {{question.questionText}}</span>
+    </div>
+</div>
+</div>
